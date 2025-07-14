@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sravya | Resume + Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+    body {
+      background: linear-gradient(135deg, #f3f4f6, #e0e7ff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #d890c3, #47042e);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+      animation: slideFadeIn 1s ease-out;
+    }
+    @keyframes slideFadeIn {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+      animation: fadeUp 0.8s ease-in-out;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #540950;
+      border-bottom: 2px solid #ddd;
+      display: inline-block;
+    }
+    .project, .education-item, .skill-list {
+      margin-bottom: 1.5rem;
+      animation: fadeUp 0.6s ease-in;
+    }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .contact-links a {
+      margin-right: 1rem;
+      color: #540950;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    .contact-links a:hover {
+      color: #540950;
+    }
+    .resume-button {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: white;
+      color: #540950;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      margin-top: 1rem;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, background 0.3s;
+    }
+    .resume-button:hover {
+      background: #e0e7ff;
+      transform: scale(1.05);
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #777;
+      background: #f3f4f6;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sravya Prathipati</h1>
+    <p>Frontend Developer | React | JavaScript Enthusiast</p>
+    <a class="resume-button" href="sravyaprathipatiresume.pdf" download>📄 Download Resume</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">About Me</h2>
+    <p>
+      I'm a Computer Science(ai&ml) student passionate about building responsive and accessible web applications. I enjoy working with modern web technologies and creating clean, user-friendly designs.
+    </p>
+  </section>
+
+  <section>
+    <h2 class="section-title">Projects</h2>
+    <div class="project">
+      <strong>MLGPT – ML Web App</strong><br/>
+      React, Flask, Tailwind
+      <p>Interactive web app to upload datasets, apply ML models, and view predictions with code explanation.</p>
+      <a href="https://github.com/1433sravs-2005/MLGPT">GitHub</a> <br>
+      <strong>YOUTUBE CLONE</strong>
+      <p>A YouTube clone built with html and css only frontend without js </p>
+      <a href="https://github.com/1433sravs-2005/sravya-website"style="color: #540950">GitHub</a><br>
+      <strong>TIC TAC TOE GAME</strong>
+      <p>A Tic Tac Toe game built with html and css only frontend with js </p>
+      <a href="https://github.com/1433sravs-2005/tic-tac-toe"style="color: #540950">GitHub</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-list">
+      HTML, CSS, JavaScript, React, Python, Git, GitHub
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Education</h2>
+    <div class="education-item">
+      <strong>SRK INSTITUTE OF TECHNOLOGY</strong> — B.Tech in Computer Science<br/>
+      Expected Graduation:JUNE 2026<br/>
+      CGPA: 9.0
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-links">
+      <a href="sravyaprathipati2005@gmail.com">Email</a>
+      <a href="https://github.com/1433sravs-2005">GitHub</a>
+      <a href="https://linkedin.com/in/sravya-prathipati-619b70259">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Sravya Prathipati. All rights reserved.
+  </footer>
+</body>
+</html>
